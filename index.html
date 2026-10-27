@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi" class="overflow-x-hidden">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Luyện Đọc Song Ngữ Tiếng Anh 10 Global Success - Lớp Anh Thầy Kết</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap');
+
+  :root {
+    --farm-green: #52b788;
+    --farm-dark-green: #2d6a4f;
+    --farm-yellow: #ffb703;
+    --farm-orange: #fb8500;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f4f9f4;
+    background-image: radial-gradient(#d8f3dc 2px, transparent 2px);
+    background-size: 24px 24px;
+    color: #2b2d42;
+  }
+
+  h1, h2, h3, .font-farm {
+    font-family: 'Fredoka', cursive;
+  }
+
+  @keyframes spin-slow {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .animate-sun {
+    animation: spin-slow 20s linear infinite;
+  }
+
+  .hover-bounce:hover {
+    transform: translateY(-4px);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #e9f5ec;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #74c69d;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #52b788;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+
+  /* Style bản dịch in nghiêng */
+  .trans-text {
+    font-style: italic;
+    color: #047857; /* Emerald-700 */
+    background-color: #ecfdf5;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 2px;
+    display: inline;
+    word-break: break-word;
+  }
+
+  /* Ẩn bản dịch khi chế độ off */
+  .hide-translation .trans-text {
+    display: none !important;
+  }
+
+  mark {
+    background-color: #fef08a;
+    color: #713f12;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+
+  /* Style cho từ vựng đã thuộc */
+  .vocab-learned {
+    opacity: 0.55;
+    background-color: #f3f4f6 !important;
+    border-color: #d1d5db !important;
+  }
+  .vocab-learned .vocab-text {
+    text-decoration: line-through;
+  }
+</style>
+</head>
+
+<body class="min-h-screen flex flex-col justify-between overflow-x-hidden w-full">
+
+  <!-- TOP HEADER -->
+  <header class="bg-gradient-to-r from-green-600 via-emerald-600 to-green-700 text-white shadow-lg relative overflow-hidden w-full">
+    <div class="absolute -right-6 -bottom-6 opacity-20 pointer-events-none">
+      <i class="fa-solid fa-book-open text-7xl md:text-9xl"></i>
+    </div>
+    <div class="absolute left-2 top-2 opacity-15 pointer-events-none">
+      <i class="fa-solid fa-cloud text-4xl md:text-6xl"></i>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-3 py-3 md:py-4 flex flex-col md:flex-row items-center justify-between gap-2 md:gap-4 relative z-10">
+      <a href="" target="_blank" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-full transition border border-white/20 text-xs md:text-base">
+        <i class="fa-solid fa-graduation-cap text-yellow-300 text-lg md:text-2xl"></i>
+        <span class="font-bold tracking-wide font-farm">Lớp Anh Thầy Kết</span>
+      </a>
+
+      <div class="text-center px-2">
+        <h1 class="text-xl md:text-3xl font-bold tracking-wider text-yellow-300 drop-shadow">
+          📖 ÔN LUYỆN BÀI ĐỌC TIẾNG ANH 10 GLOBAL SUCCESS 🎯
+        </h1>
+        <p class="text-[11px] md:text-sm text-green-100 opacity-90">Song Ngữ Academic - Bứt Phá Từ Vựng & Nền Tảng THPT</p>
+      </div>
+
+      <div class="hidden md:flex items-center gap-2 text-yellow-300">
+        <i class="fa-solid fa-sun text-3xl animate-sun"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="max-w-5xl mx-auto px-3 md:px-4 py-4 md:py-6 flex-1 w-full space-y-6 md:space-y-8 overflow-x-hidden">
+
+    <!-- TOPIC SELECTOR & CONTROLS BAR -->
+    <section class="bg-white rounded-2xl p-3 md:p-6 shadow-md border-2 border-green-200 flex flex-col md:flex-row items-center justify-between gap-3 md:gap-4 w-full">
+      <div class="flex items-center gap-2.5 w-full md:w-auto">
+        <div class="w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-xl bg-emerald-100 border-2 border-emerald-300 flex items-center justify-center text-emerald-600 text-lg md:text-xl shadow-sm">
+          <i class="fa-solid fa-folder-open"></i>
+        </div>
+        <div>
+          <label for="topicSelect" class="block text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-wider">Chọn Unit Bài Đọc</label>
+          <span class="text-xs md:text-sm text-green-700 font-semibold leading-tight block">Mỗi Unit thiết kế 3 bài đọc chuyên sâu</span>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center gap-2.5 w-full md:w-auto">
+        <!-- Toggle Translation Button -->
+        <button id="toggleTransBtn" onclick="toggleTranslation()" class="w-full sm:w-auto px-3.5 py-2.5 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl shadow transition flex items-center justify-center gap-2 text-xs md:text-sm shrink-0">
+          <i class="fa-solid fa-eye-slash"></i> <span id="toggleTransText">Ẩn Bản Dịch</span>
+        </button>
+
+        <div class="w-full sm:w-80">
+          <select id="topicSelect" onchange="changeTopic(this.value)" class="w-full px-3 py-2.5 md:px-4 md:py-3 rounded-xl border-2 border-green-300 bg-emerald-50 text-green-900 font-bold focus:outline-none focus:ring-2 focus:ring-green-500 transition cursor-pointer shadow-inner text-xs md:text-sm">
+            <!-- Options populated dynamically -->
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: READING PASSAGES WITH VOCAB -->
+    <section id="readingSection" class="space-y-4 md:space-y-6 w-full">
+      <div class="flex items-center justify-between border-b-2 border-green-200 pb-2.5">
+        <h2 class="text-lg md:text-2xl font-bold text-green-800 flex items-center gap-2 font-farm">
+          <i class="fa-solid fa-book-bookmark text-green-600"></i>
+          Bài Đọc Hiểu Song Ngữ Chuẩn Global Success 10
+        </h2>
+        <span id="articleCountBadge" class="bg-green-100 text-green-800 text-[10px] md:text-xs font-bold px-2.5 py-1 rounded-full border border-green-300 shrink-0">
+          0 Bài Đọc
+        </span>
+      </div>
+
+      <!-- Container for reading articles -->
+      <div id="articlesContainer" class="space-y
